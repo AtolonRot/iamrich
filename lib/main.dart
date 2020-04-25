@@ -11,8 +11,7 @@ void main() => runApp(
             ),
             body: Center(
                 child: Image(
-              image: NetworkImage(
-                  'https://vignette.wikia.nocookie.net/zelda/images/5/5b/Link_Artwork_BotW.png/revision/latest/scale-to-width-down/250?cb=20170523124959&path-prefix=es'),
+              image: AssetImage('images/link_zelda.png'),
             )),
           ),
         ),
